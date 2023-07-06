@@ -4,7 +4,7 @@
 
 SELECT *
 FROM `example`.`people`
-WHERE id = 1
+WHERE id = 1;
 
 -- Once you verify that the WHERE clause filters the records to the row(s) you want to update
 -- you are good to run the UPDATE statement.  The syntax is as follows:
@@ -15,14 +15,14 @@ WHERE id = 1
 
 UPDATE `example`.`people`
 SET firstName = 'Tom'
-WHERE id = 1
+WHERE id = 1;
 
 -- It is also possible to update multiple columns at once, if we wanted to update
 -- both the first and last name of the user with an id of 1, the syntax would be a follows:
 
 UPDATE `example`.`people`
 SET firstName = 'Jane', lastName = 'Doe'
-WHERE id = 1
+WHERE id = 1;
 
 -- Lastly, it is possible to update multiple rows at once 
 -- ALWAYS BE CAUTIOUS updating multiple rows at once and be ESPECIALLY cautious ever running
@@ -30,8 +30,8 @@ WHERE id = 1
 
 SELECT *
 FROM `example`.`people`
-WHERE id = 1 OR id = 2
+WHERE id = 1 OR id = 2;
 
 UPDATE `example`.`people`
 SET firstName = 'John'
-WHERE id = 1 OR id = 2
+WHERE id = 1 OR id = 2;
