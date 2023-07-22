@@ -10,6 +10,8 @@ This repository contains SQL file examples.  These files also link to Cyber Supe
 
 **Create Table**: https://youtu.be/Yc-B8d0Hjgw
 
+**Delete Statement**: https://youtu.be/XT2Ca5_1YRs
+
 **Insert Into**: https://youtu.be/3PpVgLdrQgM
 
 **Update Statement**: https://youtu.be/0ClrKhqYKp0 
