@@ -9,7 +9,7 @@ GROUP BY email
 HAVING count(email) > 1;
 
 -- Once we have verified all the duplicates we would be deleting, we can run the delete statement.
--- The following delete consists of a select join to the people table, which would delete 
+-- The following delete consists of a self join to the people table, which would delete 
 -- all duplicates that are less than the max id for a given email.  The thinking is that the
 -- highest ID would be the most recently inserted record and therefore, most accurate.
 
